@@ -1,3 +1,5 @@
+SOURCE: Majority of the code in these files are heavily sourced from module 13 and 14. 
+
 AS A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions

@@ -13,6 +13,7 @@ router.get('/', (req, res) => {
     });
 });
 
+//get user by id
 router.get('/:id', (req, res) => {
   User.findOne({
     attributes: { exclude: ['password'] },
@@ -53,6 +54,7 @@ router.get('/:id', (req, res) => {
     });
 });
 
+//create user
 router.post('/', (req, res) => {
   User.create({
     username: req.body.username,
@@ -132,6 +134,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
+//Delete user
 router.delete('/:id', (req, res) => {
   User.destroy({
     where: {
